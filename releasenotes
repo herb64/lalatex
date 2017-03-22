@@ -1,0 +1,34 @@
+Version 0.6.0
+- First public release on github in 03/2017
+
+Version 0.5.4
+- Source files must now be named .llx instead of .ltx
+- Added the %%RUN macro to gather 'live' information from external sources
+- Tables now allow 'per table' highlighting definitions
+- Row sort function for tables is now available via SORTBY, using column name or nunber
+- Table Column ordering and filtering via COLORDER statement within each table
+- csv separator now defineable as ";" or "," or ":" (via %%TAB flag), default remains ";"
+- Better report for mismatch in column numbers, now reporting which line in which file
+  does not match also for included files
+- EXPORT and IMPORT options to export/import project content to/from a tarball
+- Some issues fixed with the tilde sign
+- Issues fixed with curly braces in command macro
+- GIF format is now supported (needs ImageMagick installed)
+- Fixed ugly spacing before NOTE, WARN, TODO, ERROR sections after images, verbatims etc...
+- Verbatim line - automatic wrap for too long data - first shot here, more improvement needed 
+- verbatim - allow colored highlight by \rtext++ (red, green and blue) - first shot here...
+- CHANGE in list %%L: another macro or an empty line ends list. Text following immediately
+  will be appended to the list - this allows to have longer text in lists within multiple
+  lines
+- Added numbered list %%Ln
+- VIM syntax highlighting available in first version
+- Added --offline option to prevent %%RUN from being executed at all if data sources not available
+- Added %%H0 heading
+
+Version 0.5.3
+- changed cleanup of temporary files to be more safe
+- fixed version number handling to accept single number as documented
+- fixed check for unclosed sections at end of document
+
+Version 0.5.2
+- The initial release on 06.12.2015 given to some people

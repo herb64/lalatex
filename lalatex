@@ -41,7 +41,7 @@ __author__ = "Herbert Mehlhose"
 __copyright__ = "Copyright 2015-2017, Herbert Mehlhose"
 __credits__ = ["Klaus Eckel"]
 __license__ = "GPL"
-__version__ = "0.6.1"
+__version__ = "0.6.0"
 __maintainer__ = "Herbert Mehlhose"
 # well, removed that email stuff...
 __email__ = ""

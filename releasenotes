@@ -1,3 +1,6 @@
+Version 0.6.1
+- Fixed incorrect curly bracket escaping in inline CODE sections
+
 Version 0.6.0
 - First public release on github in 03/2017
 

@@ -3471,7 +3471,7 @@ def processLtx(fname):
 
             # Curly bracket handling with makedoc with color for sample tables.
             # FIX: curly brackets in run are needed
-            if (not getCurrentBlock == 'V' and not
+            if (not getCurrentBlock() in ('V','CODE') and not
                 line.startswith('%%RUN') and not
                 line.startswith('$$') and not
                 'EXAMPLE TEXT for LaLaTeX Coloring in' in line and not

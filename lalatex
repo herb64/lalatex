@@ -4320,6 +4320,7 @@ def processLtx(fname):
                                    '[caption = %s,'
                                    'captionpos=b,'
                                    'basicstyle=\\ttfamily%s,'
+                                   'numberstyle=\\ttfamily\\tiny,'
                                    '%s'
                                    'language=%s]{}\'' %
                                    (caption,

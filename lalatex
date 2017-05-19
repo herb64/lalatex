@@ -2106,6 +2106,11 @@ def getScriptType(scriptfile):
     # available, pip install differs from apt-get install python-magic..
     # No installed package most likely by default - so check for its presence
     todo('Handle script type detection using python magic as option')
+    # just an ugly one for now, checking filetype .R
+    # Also checked out pygments - but the guess_lexer does not seem to be
+    # recognizing languages correctly.
+    if scriptfile.endswith('.R'):
+        return 'R'
     with open(scriptfile, 'r') as FH:
         for line in FH:
             Match = re.match(r'\s*#!\s*(/.*)\s*', line)

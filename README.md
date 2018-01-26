@@ -28,7 +28,7 @@ That's basically all, I'm working on more to fill the community with information
 
 *  RHEL Desktop
 *  Fedora 23 Server
-*  Fedora 23 and 25  Workstation
+*  Fedora 23, 25 and 27 Workstation
 *  SLES 11
 *  OpenSuse 13.1
 *  Ubuntu 14.04 LTS workstation
